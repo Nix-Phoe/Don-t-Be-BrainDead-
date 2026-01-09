@@ -1,0 +1,143 @@
+{
+    "facile": [
+        {
+            "question": "Quelle est la capitale de la France ?",
+            "reponses": [
+                { "texte": "Lyon", "correct": false },
+                { "texte": "Paris", "correct": true },
+                { "texte": "Marseille", "correct": false },
+                { "texte": "Bordeaux", "correct": false }
+            ]
+        },
+        {
+            "question": "Combien y a-t-il de jours dans une année normale ?",
+            "reponses": [
+                { "texte": "360", "correct": false },
+                { "texte": "366", "correct": false },
+                { "texte": "365", "correct": true },
+                { "texte": "364", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle couleur obtient-on en mélangeant du rouge et du bleu ?",
+            "reponses": [
+                { "texte": "Orange", "correct": false },
+                { "texte": "Vert", "correct": false },
+                { "texte": "Marron", "correct": false },
+                { "texte": "Violet", "correct": true }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand océan du monde ?",
+            "reponses": [
+                { "texte": "Océan Atlantique", "correct": false },
+                { "texte": "Océan Pacifique", "correct": true },
+                { "texte": "Océan Indien", "correct": false },
+                { "texte": "Océan Arctique", "correct": false }
+            ]
+        },
+        {
+            "question": "Combien de pattes a une araignée ?",
+            "reponses": [
+                { "texte": "6", "correct": false },
+                { "texte": "10", "correct": false },
+                { "texte": "8", "correct": true },
+                { "texte": "4", "correct": false }
+            ]
+        }
+    ],
+    "moyen": [
+        {
+            "question": "En quelle année a eu lieu la Révolution française ?",
+            "reponses": [
+                { "texte": "1792", "correct": false },
+                { "texte": "1776", "correct": false },
+                { "texte": "1789", "correct": true },
+                { "texte": "1804", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel est le symbole chimique de l'or ?",
+            "reponses": [
+                { "texte": "Au", "correct": true },
+                { "texte": "Ag", "correct": false },
+                { "texte": "Or", "correct": false },
+                { "texte": "Go", "correct": false }
+            ]
+        },
+        {
+            "question": "Qui a peint la Joconde ?",
+            "reponses": [
+                { "texte": "Michel-Ange", "correct": false },
+                { "texte": "Raphaël", "correct": false },
+                { "texte": "Botticelli", "correct": false },
+                { "texte": "Léonard de Vinci", "correct": true }
+            ]
+        },
+        {
+            "question": "Quelle planète est surnommée la planète rouge ?",
+            "reponses": [
+                { "texte": "Vénus", "correct": false },
+                { "texte": "Mars", "correct": true },
+                { "texte": "Jupiter", "correct": false },
+                { "texte": "Saturne", "correct": false }
+            ]
+        },
+        {
+            "question": "Combien de cordes a une guitare classique ?",
+            "reponses": [
+                { "texte": "4", "correct": false },
+                { "texte": "8", "correct": false },
+                { "texte": "6", "correct": true },
+                { "texte": "12", "correct": false }
+            ]
+        }
+    ],
+    "difficile": [
+        {
+            "question": "Quel est le plus petit pays du monde ?",
+            "reponses": [
+                { "texte": "Monaco", "correct": false },
+                { "texte": "Vatican", "correct": true },
+                { "texte": "Saint-Marin", "correct": false },
+                { "texte": "Liechtenstein", "correct": false }
+            ]
+        },
+        {
+            "question": "En quelle année le premier humain a-t-il marché sur la Lune ?",
+            "reponses": [
+                { "texte": "1968", "correct": false },
+                { "texte": "1971", "correct": false },
+                { "texte": "1965", "correct": false },
+                { "texte": "1969", "correct": true }
+            ]
+        },
+        {
+            "question": "Quel est le fleuve le plus long du monde ?",
+            "reponses": [
+                { "texte": "Le Nil", "correct": true },
+                { "texte": "L'Amazone", "correct": false },
+                { "texte": "Le Mississippi", "correct": false },
+                { "texte": "Le Yangtsé", "correct": false }
+            ]
+        },
+        {
+            "question": "Qui a écrit 'Les Misérables' ?",
+            "reponses": [
+                { "texte": "Émile Zola", "correct": false },
+                { "texte": "Gustave Flaubert", "correct": false },
+                { "texte": "Victor Hugo", "correct": true },
+                { "texte": "Alexandre Dumas", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle est la vitesse de la lumière dans le vide (approximativement) ?",
+            "reponses": [
+                { "texte": "150 000 km/s", "correct": false },
+                { "texte": "300 000 km/s", "correct": true },
+                { "texte": "500 000 km/s", "correct": false },
+                { "texte": "200 000 km/s", "correct": false }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>the_skull</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "Le-titre">
+        <h1>DON'T BE BRAINDEAD 😈</h1>
+    </div>
+    
+    
+    <!-- ÉCRAN DE SÉLECTION DE DIFFICULTÉ -->
+    <div id="ecran-difficulte">
+        <div id="Titre-Choix">
+            <h2>Choisissez votre niveau de difficulté :</h2>
+        </div>
+        <div id="Les-Choix">
+        <button id="btn-facile" class="btn-difficulte">Facile 😊</button>
+        <button id="btn-moyen" class="btn-difficulte">Moyen 🤔</button>
+        <button id="btn-difficile" class="btn-difficulte">Difficile 😈</button>
+        </div>
+        
+    </div>
+    
+    <!-- ÉCRAN DE JEU (caché au début) -->
+    <div id="ecran-jeu" style="display: none;">
+        <h2 id="Question">Question</h2>
+        
+        <p id="timer" class = "resultat"></p>
+        <p id="reponse"></p>
+        <p id="warning"></p>
+        
+        <p id="score" class = "resultat"></p>
+        <p id="appreciation" class = "resultat"></p>
+
+        <div id="position-reponse">
+            
+        </div>
+
+        <button id="Continue"></button>
+        <button id="ornot"></button>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>

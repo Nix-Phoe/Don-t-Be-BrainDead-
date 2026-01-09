@@ -1,0 +1,105 @@
+body{
+    background-color : rgb(27, 60, 83);
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+.Le-titre{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1 {
+    color : rgb(227, 227, 227);
+    font-size: 50px;
+}
+h2 {
+    color : rgb(227, 227, 227);
+    font-size: 30px;
+}
+#ecran-difficulte{
+    background-color:rgb(35, 76, 106);
+    border-radius: 20px;
+    margin :auto; 
+    padding: 20px;
+    width: 600px;
+    height: 500px;
+}
+#Titre-Choix{
+    display:flex;
+    justify-content: center;
+}
+#Les-Choix{
+    display: flex;
+    flex-direction: column;
+}
+.btn-difficulte{
+    margin: 40px;
+    height: 50px;
+    background-color: rgb(69, 104, 130);
+    border-radius: 5px;
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color : rgb(227, 227, 227);
+    
+}
+#ecran-jeu{
+    background-color:rgb(35, 76, 106);
+    border-radius: 20px;
+    margin :auto; 
+    padding: 20px;
+    width: 600px;
+    height: 750px;
+    
+}
+#position-reponse{
+    display: flex;
+    flex-direction: column;
+}
+.btn-reponse-style{
+    margin: 30px;
+    height: 50px;
+    background-color: rgb(69, 104, 130);
+    border-radius: 5px;
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color : rgb(227, 227, 227);
+}
+#Continue{
+    margin: 20px;
+    height: 50px;
+    background-color: rgb(69, 130, 117);
+    border-radius: 5px;
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color : rgb(227, 227, 227);
+}
+#ornot{
+    margin: 20px;
+    height: 50px;
+    background-color: rgb(130, 69, 84);
+    border-radius: 5px;
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color : rgb(227, 227, 227);
+}
+#reponse{
+    font-size: 25px;
+}
+.resultat{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color : rgb(227, 227, 227);
+}
