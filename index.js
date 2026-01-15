@@ -22,12 +22,7 @@ let questrep = [];
 let i = 0;
 let toutesLesQuestions = null;
 
-// Créer les boutons de réponse
-/*let btn = document.createElement("button");
-let btn2 = document.createElement("button");
-let btn3 = document.createElement("button");
-let btn4 = document.createElement("button");
-*/
+
 //Boucle pour créer et mettre les boutons dans une classe
 let boutonsdereponse = [];
 for (let i = 0; i < 4; i++){
@@ -78,33 +73,33 @@ function demarrerJeu(difficulte) {
     ecranDifficulte.style.display = "none";
     ecranJeu.style.display = "block";
     
-    // Afficher la première question
+    
     afficherQuestion();
     
-    // Configurer les boutons
+  
     the_gamecchangertrue.textContent = "CONTINUER";
     the_gamecchangerfalse.textContent = "Arrêter";
 }
 // Timer
-  //declaration de variable
+
   let the_countdown = null;
   let secondes = 30;
 
-  // fonction pour demarrer et redemarrer un nouveau timer 
+  
   function demarrertimer() {
-    // Arret du timer precédent s'il existe 
+    
     if (the_countdown) {
         clearInterval(the_countdown);
     }
-    // Réinitialiser à 30 secondes 
+    
     secondes = 30;
     the_time.textContent = `00:${secondes}`;
 
-    //demarrer le nouveau timer 
+    
     the_countdown = setInterval(() => {
         secondes--;
 
-        //Formater l'affichage (ajouter un 0 si <10)
+        
         const affichage = secondes < 10 ? `00:0${secondes}` : `00:${secondes}`;
         the_time.textContent = affichage;
 
@@ -117,13 +112,13 @@ function demarrerJeu(difficulte) {
     }, 1000);
 
   }
-// Fonction pour afficher une question
+//  afficher une question
 function afficherQuestion() {
     if (i >= questrep.length) {
         if (the_countdown) {
             clearInterval(the_countdown);
         }
-
+        ecranJeu.style.height = "300px";
         the_question.textContent = "Quiz terminé ! 🎉";
         the_score.textContent = `SCORES : ${scores}`;
 
@@ -150,7 +145,7 @@ function afficherQuestion() {
     }
     
     the_question.textContent = questrep[i].question;
-     // Afficher les textes des boutons
+     
     for (let j = 0; j < 4; j++) {
         boutonsdereponse[j].textContent = questrep[i].reponses[j].texte;
         boutonsdereponse[j].style.display = "inline-block";
@@ -158,14 +153,14 @@ function afficherQuestion() {
     the_answer.textContent = "";
     the_warning.textContent = "";
     
-    // Redemarrage du timer 
+     
     demarrertimer();
 }
-// Les Variables utilisé pour montrer les scores:
 
+//Bouton de reponse et score :
 let scores = 0;
 
-// Ajouter les événements aux boutons de réponse
+
 boutonsdereponse.forEach((btn, index) => {
     btn.addEventListener("click", () => {
         the_warning.textContent = "";
@@ -195,7 +190,7 @@ the_gamecchangerfalse.addEventListener("click", () => {
 
     the_question.textContent = "MERCI D'AVOIR JOUÉ ! 👋";
     the_question.style.textAlign = "center";
-    ecranJeu.style.height = "100px";
+    ecranJeu.style.height = "200px";//**
 
     the_answer.textContent = "";
     the_warning.textContent = "";
@@ -206,10 +201,10 @@ the_gamecchangerfalse.addEventListener("click", () => {
     clearInterval(the_countdown);
     the_time.style.display = "none";
 
-    // Option : afficher un bouton pour recommencer
+   
     setTimeout(() => {
         if (confirm("Voulez-vous rejouer ?")) {
-            location.reload(); // Recharge la page
+            location.reload(); 
         }
     }, 1000);
 });
